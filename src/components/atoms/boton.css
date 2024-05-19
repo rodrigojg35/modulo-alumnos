@@ -1,0 +1,51 @@
+.boton {
+    /* Base button styles */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Type styles */
+  .boton--primary {
+    background-color: #007bff; /* Blue */
+    color: white;
+  }
+  
+  .boton--secondary {
+    background-color: #6c757d; /* Gray */
+    color: white;
+  }
+  
+  /* Size styles */
+  .boton--small {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+  
+  .boton--medium {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  .boton--large {
+    padding: 12px 24px;
+    font-size: 18px;
+  }
+  
+  /* Disabled state */
+  .boton:disabled {
+    background-color: #e9ecef; /* Light Gray */
+    cursor: not-allowed;
+  }
+  
+  /* Hover/Active states (optional) */
+  .boton:hover {
+    /* Add hover styles */
+  }
+  
+  .boton:active {
+    /* Add active styles */
+  }
+  
